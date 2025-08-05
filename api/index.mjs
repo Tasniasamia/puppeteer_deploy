@@ -62,3 +62,6 @@ app.get('/screenshot', async (req, res) => {
 app.listen(port, () => {
   console.log(`✅ Screenshot API ready at http://localhost:${port}`);
 });
+
+
+// https://puppeteer-deploy-blue.vercel.app/screenshot?url=http://example.com
